@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.forexamten.HelloController">
+   <children>
+      <Label fx:id="label" layoutX="272.0" layoutY="60.0" />
+      <TextField fx:id="loginField" layoutX="226.0" layoutY="96.0" />
+      <TextField fx:id="textFieldTwo" layoutX="226.0" layoutY="133.0" />
+      <CheckBox fx:id="checkBox" layoutX="264.0" layoutY="175.0" mnemonicParsing="false" onAction="#visiblePass" text="CheckBox" />
+      <Button fx:id="buttonOne" layoutX="274.0" layoutY="212.0" mnemonicParsing="false" onAction="#login" text="Button" />
+      <PasswordField fx:id="passField" layoutX="226.0" layoutY="133.0" />
+   </children>
+</AnchorPane>
